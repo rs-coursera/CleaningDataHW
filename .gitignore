@@ -15,3 +15,6 @@
 
 # Test data folder
 "UCI HAR Dataset"
+
+# Any MD file rendition from R Studio
+*.html
