@@ -58,3 +58,8 @@ library(data.table)
 dt<-data.table(fullDS)
 simpleSet<-dt[, lapply(.SD,mean), by=list(Subject, Activity.Name)]
 
+# Save resulting data frame to file
+print("Saving tidy dataset to file 'output.txt'")
+write.table(simpleSet[order(simpleSet$Subject),], file="output.txt", 
+            sep=",", row.names=F, quote=F)
+print("Done!")

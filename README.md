@@ -12,7 +12,7 @@ The setup requires following actions:
 3. From the R prompt run the following command
 
         source("run_analysis.R")
-4. tidy.csv file will be produced in the working directory
+4. output.txt file will be produced in the working directory
 
 More Information
 ----------------
