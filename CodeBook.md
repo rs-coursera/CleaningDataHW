@@ -48,6 +48,7 @@ Based on this information variable names were expanded the following way:
 * Gyro - to Gyroscope
 * -mean() or -std() means mean or standard deviation respectively
 * -x, -y and -z correspond to the appropriate coordinate
+* dashes between function and axis are left to have better readability
 
 The resulting variable names look like the following:
 
